@@ -94,7 +94,7 @@
           <p id="download-status" class="download-status" role="status">正在检查 Windows 下载包…</p>
           <noscript><p>下载链接需要 JavaScript 识别当前仓库。请在此网站对应的 GitHub 仓库 Releases 页面下载 Windows ZIP 包。</p></noscript>
         </div>
-        <div class="download-details" id="download-help"><div class="download-version"><span>DESKTOP PREVIEW</span><strong id="version-label">v53</strong></div><h3>下载前，了解这几点</h3><ul><li>面向 Windows 10 / 11，64 位电脑。</li><li>完整解压 ZIP，双击「安装 OfferPilot.bat」，<br>安装后会创建桌面快捷方式。</li><li>AI 功能需联网，并配置自己的 DeepSeek API Key；模型服务可能产生费用。</li><li>当前 v53 未内置 AI 浏览器独立运行组件。该功能需额外配置，不能仅靠下载此包启用。</li></ul><p class="download-honesty">预览版仍在迭代。请先试用，再用于重要求职任务。</p><a id="release-link" class="release-link" hidden target="_blank" rel="noopener noreferrer">查看版本与下载文件 <span aria-hidden="true">↗</span></a></div>
+        <div class="download-details" id="download-help"><div class="download-version"><span>DESKTOP PREVIEW</span><strong id="version-label">v53</strong></div><h3>下载前，了解这几点</h3><ul><li>面向 Windows 10 / 11，64 位电脑。</li><li>完整解压 ZIP，双击「安装 OfferPilot.bat」，<br>安装后会创建桌面快捷方式。</li><li>安装包内含 AI 浏览器所需的 Python 与 Chromium，无需再下载运行组件。</li><li>AI 搜索与生成功能仍需联网并配置自己的 DeepSeek API Key；模型服务可能产生费用。</li></ul><p class="download-honesty">预览版仍在迭代。请先试用，再用于重要求职任务。</p><a id="release-link" class="release-link" hidden target="_blank" rel="noopener noreferrer">查看版本与下载文件 <span aria-hidden="true">↗</span></a></div>
       </div>
       <div class="download-footnote"><span>网站仅提供产品介绍与下载，不收集你的简历。</span><span>macOS / Linux 暂不提供安装包</span></div>
     </section>
@@ -102,7 +102,7 @@
     <section id="faq" class="section container faq-section">
       <div class="faq-heading reveal"><p class="eyebrow">04 / A FEW THINGS TO KNOW</p><h2>出发前的<br>几个小问题。</h2><p>把边界说清楚，<br>才能用得更安心。</p></div>
       <div class="faq-list reveal">
-        <details><summary>下载后，需要自己安装编程环境吗？<span aria-hidden="true">+</span></summary><div><p>主程序的运行库已随 Windows 下载包提供，普通用户无需安装 Python。先完整解压，再运行安装脚本即可创建桌面图标。注意：v53 的 AI 浏览器使用独立组件，尚未包含在这个包里，需要额外准备环境。它不是所有功能完全免配置的正式版。</p></div></details>
+        <details><summary>下载后，需要自己安装编程环境吗？<span aria-hidden="true">+</span></summary><div><p>无需安装 Python。主程序运行库、AI 浏览器使用的独立 Python 环境和 Chromium 都已包含在 Windows 下载包里。完整解压后运行安装脚本，就会一起安装并创建桌面图标。AI 功能仍需联网，并填写自己的 DeepSeek API Key。</p></div></details>
         <details><summary>AI 功能需要付费吗？<span aria-hidden="true">+</span></summary><div><p>此页面提供软件预览版下载，不代售模型服务。AI 分析、简历生成等功能需要你在设置中填写自己的 DeepSeek API Key，费用和可用额度以模型服务商为准。额度不足时，相关 AI 功能会无法运行。</p></div></details>
         <details><summary>岗位信息来自哪里？能自动帮我投递吗？<span aria-hidden="true">+</span></summary><div><p>产品通过公开招聘信息和浏览器辅助搜索收集岗位。可获取的范围取决于站点是否开放、登录限制、网络情况等，不承诺覆盖所有城市的全部岗位。请以原始招聘公告为准；报名、上传材料和投递需要你自行确认完成。</p></div></details>
         <details><summary>我的简历会被上传到这个网站吗？<span aria-hidden="true">+</span></summary><div><p>不会。这是静态宣传与下载网站，没有简历上传入口。桌面软件中的材料在本机保存；使用 AI 生成或分析时，相关简历文字、岗位要求和提示内容会发送给你配置的模型服务。请先脱敏，避免输入不必要的敏感信息。</p></div></details>

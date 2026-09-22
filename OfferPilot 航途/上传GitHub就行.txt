@@ -1,8 +1,8 @@
 OfferPilot 官网：只需要做这 3 步
 
-1. 在 GitHub 新建一个公开仓库，名称建议 OfferPilot。
-   把本文件夹里的 docs 文件夹、README.md 等文件上传到仓库根目录。
-   注意：不是把「OfferPilot_GitHub上传」这一层文件夹再套进去。
+1. 打开你已经创建的 GitHub 仓库 OfferPilot-。
+   把桌面「OfferPilot 航途」文件夹里面的 docs 文件夹、README.md 等文件上传到仓库根目录。
+   注意：不要把「OfferPilot 航途」这一层文件夹再套进去；仓库首页应直接看见 docs。
 
 2. 打开仓库 Settings → Pages。
    Source 选 Deploy from a branch；分支选 main；目录选 /docs；保存。
@@ -16,9 +16,9 @@ OfferPilot 官网：只需要做这 3 步
 完成后，网站自动连接这个仓库的下载包。别人点击「下载 Windows 版」即可下载 ZIP。
 下载者完整解压后，双击「安装 OfferPilot.bat」，安装后会有桌面图标。
 
-重要：ZIP 下载包约 186 MB，放在 Releases 附件里，不要上传到普通代码文件列表。
+重要：完整版 ZIP 含 AI 浏览器环境和 Chromium，体积比旧包大。放在 Releases 附件里，不要上传到普通代码文件列表。
 本文件夹只有网站，没有公开你的软件私有源码、API Key 或个人简历。
-当前 v53 的 AI 浏览器独立组件仍需额外配置，网页已如实说明。
+当前 v53 完整包已随附 AI 浏览器组件；联网 AI 功能仍需用户填写自己的 DeepSeek API Key。
 
 现在想先看效果：双击 docs 文件夹中的 index.html。
 本地预览没有公共下载地址，这是正常的；完成上述 3 步后再测试下载。
