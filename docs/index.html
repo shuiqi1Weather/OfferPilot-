@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a1110">
+  <meta name="description" content="OfferPilot，航途小队打造的 AI 求职全链路工作台。把岗位发现、信息整理、简历定制与面试准备，放进同一段求职旅程。下载 Windows 桌面预览版。">
+  <meta property="og:title" content="OfferPilot · 为下一站，找到方向">
+  <meta property="og:description" content="从寻找机会，到准备好自己。一款陪你走过求职全链路的 AI 桌面工作台。">
+  <meta property="og:type" content="website">
+  <title>OfferPilot 航途 · 为下一站，找到方向</title>
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <script src="config.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳转到正文</a>
+  <header class="site-header">
+    <div class="nav-wrap container">
+      <a class="brand" href="#" aria-label="OfferPilot 首页"><img src="assets/logo.png" width="36" height="36" alt=""><span>OfferPilot<span class="brand-cn">航途</span></span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="打开导航"><span></span><span></span></button>
+      <nav id="nav-links" aria-label="主导航">
+        <a href="#features">产品能力</a><a href="#inside">看看软件</a><a href="#how">如何开始</a><a href="#faq">常见问题</a>
+      </nav>
+      <a class="nav-download" href="#download">下载体验 <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> YOUR NEXT CHAPTER <span class="eyebrow-line"></span></p>
+        <h1 id="hero-title">为下一站，<br><span>找到方向。</span></h1>
+        <p class="hero-intro">求职，不必在无数个页面之间独自摸索。<br>让 AI 帮你找机会、理信息、准备简历，<br class="desktop-break">把精力留给真正值得奔赴的工作。</p>
+        <div class="hero-actions"><a class="button primary" href="#download"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></svg>下载 Windows 版<span aria-hidden="true">↗</span></a><a class="text-link" href="#inside">先看看它怎么用 <span aria-hidden="true">↘</span></a></div>
+        <p class="hero-meta">v53 预览版 <span>·</span> Windows 桌面应用 <span>·</span> 航途小队出品</p>
+      </div>
+      <div class="hero-visual" aria-label="OfferPilot 岗位库界面预览">
+        <div class="orbit orbit-one" aria-hidden="true"></div><div class="orbit orbit-two" aria-hidden="true"></div>
+        <div class="orbit-traveller" aria-hidden="true"><span></span></div>
+        <div class="coordinate coordinate-top" aria-hidden="true">EXPLORE. PREPARE. MOVE FORWARD.</div>
+        <div class="hero-app" data-tilt>
+          <div class="window-bar"><div class="window-dots" aria-hidden="true"><i></i><i></i><i></i></div><span>你的求职工作台</span><span class="window-badge">OfferPilot</span></div>
+          <img src="assets/product-jobs.png" width="1540" height="980" alt="OfferPilot 真实岗位库界面，左侧筛选岗位，右侧查看详细要求；画面使用示例数据" fetchpriority="high">
+        </div>
+        <div class="floating-note note-top"><span class="note-icon" aria-hidden="true">↗</span><div><span>让搜索更进一步</span><strong>从信息，到行动</strong></div></div>
+        <div class="floating-note note-bottom"><img src="assets/logo.png" width="34" height="34" alt=""><div><strong>下一站，由你决定。</strong><span>AI 陪你准备，你掌握方向。</span></div></div>
+        <span class="visual-caption">真实软件界面 · 示例数据</span>
+      </div>
+      <div class="hero-footer"><span>LESS SEARCHING. MORE DIRECTION.</span><a href="#journey">向下探索 <span aria-hidden="true">↓</span></a><button id="motion-toggle" class="motion-toggle" aria-pressed="false">暂停动效 <span aria-hidden="true">Ⅱ</span></button></div>
+    </section>
+
+    <section class="journey" id="journey" aria-label="求职全链路">
+      <div class="container journey-inner"><p>不只回答问题。<br><strong>把下一步，也准备好。</strong></p><ol><li><span>01</span>澄清目标</li><li><span>02</span>发现岗位</li><li><span>03</span>筛选匹配</li><li><span>04</span>定制简历</li><li><span>05</span>面试准备</li><li><span>06</span>求职跟进</li><li><span>07</span>回顾自检</li></ol></div>
+    </section>
+
+    <section id="features" class="section container">
+      <div class="section-heading reveal"><p class="eyebrow">01 / LESS FRICTION</p><div class="heading-row"><h2>让分散的求职动作，<br>成为一条清晰的路。</h2><p>收藏夹、招聘页面、文档和聊天框。<br>那些来回切换的时刻，<br>现在有了一个共同的工作台。</p></div></div>
+      <div class="feature-grid">
+        <article class="feature-card reveal"><div class="feature-top"><span class="feature-number">01</span><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="14" cy="14" r="9"/><path d="m21 21 7 7M14 10v8m-4-4h8"/></svg></div><h3>机会，多找一层。</h3><p>从公开招聘页面、企业官网，到地方公告。用 AI 浏览器辅助查看信息，让搜索不止于一个岗位名称。</p><div class="channel-list" aria-label="支持探索的渠道类型"><span>企业招聘</span><span>公共就业</span><span>国企公告</span><span>校招实习</span></div><small>可用结果受站点开放程度及访问限制影响。</small></article>
+        <article class="feature-card reveal"><div class="feature-top"><span class="feature-number">02</span><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="5" y="5" width="22" height="22" rx="4"/><path d="M5 13h22M13 13v14m5-8h5m-5 4h5"/></svg></div><h3>信息，整理到一起。</h3><p>搜索结果可整理为结构化岗位，汇入岗位库。对照城市、公司和要求慢慢筛选，也可以导出表格继续整理。</p><div class="mini-record"><span class="mini-check" aria-hidden="true">✓</span><span>岗位信息</span><span>来源链接</span><span class="mini-export">CSV ↗</span></div><small>保留来源，判断岗位前再核对原始公告。</small></article>
+        <article class="feature-card reveal"><div class="feature-top"><span class="feature-number">03</span><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M19 4H7v24h18V10l-6-6Zm0 0v6h6M11 16h10m-10 5h7"/></svg></div><h3>准备，更贴近岗位。</h3><p>围绕真实岗位要求，梳理已有经历，辅助改写简历、准备面试。内容可核对、可编辑，再由你决定最终版本。</p><div class="resume-lines" aria-hidden="true"><span></span><span></span><span></span><b>你的经历 × 岗位要求</b></div><small>AI 辅助表达，不代替真实经历与个人判断。</small></article>
+      </div>
+    </section>
+
+    <section id="inside" class="section showcase">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">02 / INSIDE OFFERPILOT</p><div class="heading-row"><h2>看得见的过程。<br><span class="muted-heading">握在手里的结果。</span></h2><p>不是只给一句建议。<br>信息在哪里、岗位是什么、下一步做什么，<br>在工作台里逐一展开。</p></div></div>
+        <div class="showcase-controls reveal"><div class="showcase-tabs" role="tablist" aria-label="产品界面"><button role="tab" id="tab-jobs" aria-selected="true" aria-controls="panel-jobs" tabindex="0">01 <span>统一岗位库</span></button><button role="tab" id="tab-browser" aria-selected="false" aria-controls="panel-browser" tabindex="-1">02 <span>AI 浏览器</span></button></div><span class="sample-label"><span></span>真实应用截图 · 示例数据</span></div>
+        <div class="showcase-frame reveal">
+          <div id="panel-jobs" role="tabpanel" aria-labelledby="tab-jobs" tabindex="0"><img src="assets/product-jobs.png" loading="lazy" width="1540" height="980" alt="岗位库：在一个页面筛选、浏览岗位详情，继续简历和面试准备"><div class="screen-caption"><strong>把找到的机会，留在同一个地方。</strong><span>筛选岗位 / 查看详情 / 导出表格 / 继续准备</span></div></div>
+          <div id="panel-browser" role="tabpanel" aria-labelledby="tab-browser" tabindex="0" hidden><img src="assets/product-browser.png" loading="lazy" width="1540" height="980" alt="AI 浏览器：输入任务、查看执行结果，把岗位信息整理成表格"><div class="screen-caption"><strong>说出目标，让信息收集有迹可循。</strong><span>任务输入 / 浏览过程 / 结构化结果 / 岗位整理</span></div></div>
+        </div>
+        <div class="showcase-bottom"><span>界面中的岗位仅用于演示，不构成招聘或录用承诺。</span><a class="text-link" href="#download">在自己的电脑上试试 <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="section container how-section" id="how">
+      <div class="how-intro reveal"><p class="eyebrow">03 / YOUR FIRST FLIGHT</p><h2>从“我想找工作”，<br>到知道下一步做什么。</h2><p>从一个目标出发，逐步补齐信息。<br>不必一开始，就想好所有答案。</p><a class="text-link" href="#download">准备出发 <span aria-hidden="true">↗</span></a><div class="flight-mark" aria-hidden="true"><span></span><img src="assets/logo.png" width="72" height="72" alt=""></div></div>
+      <ol class="step-list">
+        <li class="reveal"><span class="step-index">01</span><div><h3>说出你的求职目标</h3><p>例如“杭州的产品运营实习”。补充城市、经验与个人偏好，让方向更清楚。</p></div><span class="step-arrow" aria-hidden="true">↗</span></li>
+        <li class="reveal"><span class="step-index">02</span><div><h3>发现机会，核对信息</h3><p>通过岗位库与联网搜索浏览机会，对照原始招聘页面，判断是否适合自己。</p></div><span class="step-arrow" aria-hidden="true">↗</span></li>
+        <li class="reveal"><span class="step-index">03</span><div><h3>为一个岗位，认真准备</h3><p>导入自己的简历，围绕岗位要求调整表达，再用面试练习查漏补缺。</p></div><span class="step-arrow" aria-hidden="true">↗</span></li>
+        <li class="reveal"><span class="step-index">04</span><div><h3>带着准备，走向下一站</h3><p>保存材料与求职笔记，持续跟进。报名与投递由你亲自确认和完成。</p></div><span class="step-arrow" aria-hidden="true">↗</span></li>
+      </ol>
+    </section>
+
+    <section id="download" class="download-section container">
+      <div class="download-card reveal">
+        <div class="download-decoration" aria-hidden="true"><span></span><span></span><span></span><img src="assets/logo.png" width="112" height="112" alt=""></div>
+        <div class="download-copy"><p class="eyebrow">READY FOR YOUR NEXT CHAPTER?</p><h2>下一站，<br>从这里开始。</h2><p>把 OfferPilot 放到桌面，<br>也把更多可能，放进你的求职旅程。</p>
+          <a id="download-button" class="button download-button" href="#download-help" aria-describedby="download-status"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></svg><span id="download-label">查看下载说明</span><span aria-hidden="true">↗</span></a>
+          <p id="download-status" class="download-status" role="status">正在检查 Windows 下载包…</p>
+          <noscript><p>请启用 JavaScript，或前往 GitHub 发行页下载 Windows 版。</p></noscript>
+        </div>
+        <div class="download-details" id="download-help"><div class="download-version"><span>WINDOWS</span><strong id="version-label">v53</strong></div><h3>从桌面，开启下一步。</h3><ul><li>适用于 Windows 10 / 11，64 位电脑。</li><li id="install-hint">运行组件已包含在下载包中。</li><li>AI 功能需联网并配置自己的 DeepSeek API Key。</li></ul><a id="release-link" class="release-link" hidden target="_blank" rel="noopener noreferrer">查看版本 <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <div class="download-footnote"><span>网站仅提供产品介绍与下载，不收集你的简历。</span><span>macOS / Linux 暂不提供安装包</span></div>
+    </section>
+
+    <section id="faq" class="section container faq-section">
+      <div class="faq-heading reveal"><p class="eyebrow">04 / A FEW THINGS TO KNOW</p><h2>出发前的<br>几个小问题。</h2><p>把边界说清楚，<br>才能用得更安心。</p></div>
+      <div class="faq-list reveal">
+        <details><summary>需要另外安装运行环境吗？<span aria-hidden="true">+</span></summary><div><p>运行所需组件已包含在安装包中。</p></div></details>
+        <details><summary>AI 功能需要付费吗？<span aria-hidden="true">+</span></summary><div><p>此页面提供软件预览版下载，不代售模型服务。AI 分析、简历生成等功能需要你在设置中填写自己的 DeepSeek API Key，费用和可用额度以模型服务商为准。额度不足时，相关 AI 功能会无法运行。</p></div></details>
+        <details><summary>岗位信息来自哪里？能自动帮我投递吗？<span aria-hidden="true">+</span></summary><div><p>产品通过公开招聘信息和浏览器辅助搜索收集岗位。可获取的范围取决于站点是否开放、登录限制、网络情况等，不承诺覆盖所有城市的全部岗位。请以原始招聘公告为准；报名、上传材料和投递需要你自行确认完成。</p></div></details>
+        <details><summary>我的简历会被上传到这个网站吗？<span aria-hidden="true">+</span></summary><div><p>不会。这是静态宣传与下载网站，没有简历上传入口。桌面软件中的材料在本机保存；使用 AI 生成或分析时，相关简历文字、岗位要求和提示内容会发送给你配置的模型服务。请先脱敏，避免输入不必要的敏感信息。</p></div></details>
+        <details><summary>可以先体验，不注册新账号吗？<span aria-hidden="true">+</span></summary><div><p>v53 提供演示登录：账号 <code>demo</code>，密码 <code>demo1234</code>（中间没有空格）。演示账号不包含可共享的模型 Key。正式使用自己的资料时，建议创建个人账号；此网站本身无需注册。</p></div></details>
+        <details><summary>手机上可以使用吗？<span aria-hidden="true">+</span></summary><div><p>你可以在手机上浏览这个网站。当前下载文件是 Windows 桌面版，不能直接在 Android、iPhone、macOS 或 Linux 上运行。请在 Windows 电脑上下载和安装。</p></div></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container"><div class="footer-top"><a class="brand" href="#"><img src="assets/logo.png" width="36" height="36" alt=""><span>OfferPilot<span class="brand-cn">航途</span></span></a><p>方向在你手里，准备有 AI 陪你。</p><a href="#" class="back-top" aria-label="回到顶部">↑</a></div><div class="footer-bottom"><span>© <span id="year">2026</span> 航途小队 · OfferPilot</span><span>面向求职者的 AI 桌面工作台</span><a id="github-link" hidden target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></footer>
+</body>
+</html>
